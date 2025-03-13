@@ -1,0 +1,443 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape İclal Gül} \\ \vspace{1pt}
+    \small Software Engineer $|$ \href{mailto:iclalgull67@gmail.com}{\underline{iclalgulll67@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/iclal-gül-se}{\underline{linkedin.com/in/iclal-gül-se}} $|$
+    \href{https://github.com/icloolg}{\underline{github.com/icloolg}} $|$ 
+    \href{tel:+905363519467}{\underline{ +90 536 351 94 67}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Burdur Mehmet Akif Ersoy University}{GPA:3.05}
+      {Bachelor's Degree in Software Engineering}{2021-2025}
+      \textbf{}
+      
+     \resumeSubheading
+      {Istanbul University}{GPA: 3.03}
+      {Associate Degree in Graphic Design}{2022-2024}
+      \textbf{}
+    
+    \resumeSubheading
+      {Ibrahim Süheyla Izmirli Science High School}{GPA:91.48}
+      {High School}{2016 -2020}
+      \textbf{}
+
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------
+
+\section{Experience - Project}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Intern, Cyber Security \& IT Unit (continuing)}{February 2025 -- May 2025}
+{OYAK Çimento}{Ankara, Turkey}
+\vspace{1em}
+
+\resumeItemListStart
+\textbf{Technologies:} Wireshark, IBM QRadar, Microsoft Defender, Zabbix, Forcepoint, Vectra AI, Nmap, Kali Linux, Metasploit, Burp Suite,EDR, NDR, DLP, SIEM, SOAR, SOC, CTI
+
+\resumeItem{Currently completing a 70-day internship in the IT \& Cyber Security unit, where I am gaining hands-on experience in network security, system hardening, and the application of cybersecurity best practices.}
+\resumeItem{Involved in vulnerability assessment and incident response activities, utilizing advanced tools and techniques to detect, mitigate, and prevent security risks.}
+\resumeItem{Monitored and analyzed security events using tools such as \textbf{IBM QRadar}, \textbf{SIEM}, \textbf{Microsoft Defender}, \textbf{Zabbix}, and \textbf{Forcepoint} to identify potential threats and enhance the organization’s security posture.}
+\resumeItemListEnd
+
+\vspace{1em}  % Adds space after the list
+
+\resumeSubHeadingListEnd
+
+
+
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Intern, Avionics Software Unit} 
+{July 2024 -- August 2024} 
+{Simsoft} 
+{Ankara, Turkey}
+\vspace{0.5em}
+
+{\href{https://drive.google.com/file/d/1t4hP544FIpaIUmFqv9LW_4bEsmsaJqLN/view?usp=sharing}{View the full project details here}}
+
+
+\subsection*{1. Socket Programming and Chatbot Development}
+\textbf{ Technologies:} TCP/IP, Java, Python, PyQt, Firebase, Gemini API  
+
+\begin{itemize}
+    \item Developed a TCP-Client communication application prototype using Java with a data transmission delay of 2 seconds.
+    \item Performed network simulations using Cisco Packet Tracer to test communication infrastructure.
+    \item Established client-to-client/server communication via TCP protocol in Python, successfully developing a chatbot with real-time messaging capabilities.
+    \item Designed an interactive GUI using PyQt, utilizing Signals and Slots for seamless user interaction.
+    \item Integrated Firebase database and Gemini API for AI capabilities.
+\end{itemize}
+
+\subsection*{2. Django Learning Platform Development}
+\textbf{Technologies:} Django, PostgreSQL, HTML/CSS, Docker, Unit Test, Fuzzy Search  
+
+\begin{itemize}
+    \item Developed backend for user roles (instructor, administrator, student) using the Django Framework.
+    \item Implemented Fuzzy Search algorithm to deliver correct course results with an 85\% accuracy rate, also providing similar course suggestions.
+    \item Integrated features such as course creation, deletion, and adding to favorites.
+    \item Used PostgreSQL for database management, optimizing data queries to return results under 2 seconds, ensuring high performance.
+    \item Dockerized the entire platform to ensure portability and compatibility across different environments.
+    \item Wrote Unit Tests, achieving 100\% test coverage for form validation processes.
+\end{itemize}
+
+\subsection*{3. Instance Segmentation and Football Video Analysis}
+\textbf{ Technologies:} YOLOv8, Google Colab, Roboflow, Instance Segmentation, Trackline-Tracking  
+
+\begin{itemize}
+    \item Performed instance segmentation using YOLOv8, achieving 92\% accuracy in video frame testing.
+    \item Utilized Trackline-Tracking algorithms for moving object tracking, with 80\%+ accuracy in tracking.
+    \item Optimized data preparation and model training processes using Roboflow tools.
+\end{itemize}
+
+\subsection*{4. Project Management and Tools}
+\textbf{Technologies:} Redmine, Subversion, Jira  
+
+\begin{itemize}
+    \item Actively participated in observing internal project management processes within the organization, using tools like Redmine, Subversion, and Jira.
+    \item Managed project planning, time management, and resource tracking while ensuring effective collaboration and communication within the team.
+\end{itemize}
+
+\subsection*{5. Emotion Detection and Object Detection}
+\textbf{Technologies:} YOLOv8, Roboflow, MTCNN, Real-Time Emotion Analysis  
+
+\begin{itemize}
+    \item Developed an object detection application using YOLOv8 and Roboflow, achieving 95\% accuracy in detecting objects.
+    \item Used MTCNN for face detection, with 85\%+ accuracy in detecting faces.
+    \item Trained a model with 7 emotion categories over 300 epochs, achieving an F1 score of 0.87.
+    \item Implemented real-time emotion analysis, detecting emotions in under 3 seconds using an internal camera.
+\end{itemize}
+
+    \item During my internship, I researched and gained practical knowledge on SOLID design patterns, MIL-STD 1553, ARINC 429, CANBus, and the TCP/IP and UDP communication protocols, enhancing my understanding of software architecture and avionics communication systems.
+
+\resumeSubHeadingListEnd
+\resumeSubHeading
+\textbf{Bachelor's Thesis: AI-Supported Drone-Based Fire Detection Simulation} \\
+{\href{https://drive.google.com/file/d/1Mllh_B-VOjVV-X_OyHCTryILqWopNk_s/view?usp=sharing}{View the full project details here}}
+
+\vspace{0.5em}  % Adds space between items
+
+
+\subsection*{Technologies:}{Unreal Engine 5, YOLOv8-11, Python, CUDA, Deep Learning, Drone Simulation, Computer Vision, Object Detection, OpenCV (cv2), Ultralytics, PyTorch, NumPy, Pandas}
+ 
+
+\vspace{0.5em}  % Adds space between items
+
+
+\begin{itemize}
+    \item Developed a realistic forest simulation using \textbf{Unreal Engine 5} with high-resolution assets, procedural terrain generation, and dynamic environmental conditions.
+    \item Trained a \textbf{YOLOv8-11} deep learning model on a dataset of 15,337 labeled images to detect fire and smoke with an accuracy of \textbf{mAP@50 0.68} for fire detection and \textbf{mAP@50 0.55} for smoke detection.
+    \item Implemented an autonomous drone model (Dronum) capable of navigating the simulation, capturing real-time frames, and relaying them to the AI model for analysis.
+    \item Integrated real-time detection, where fire and smoke are identified with an \textbf{inference speed of 2.8 ms}, ensuring rapid alerting for inaccessible or hazardous areas.
+    \item Compared YOLOv8 and YOLOv11 models, selecting YOLOv11 for its superior processing time (\textbf{0.15 ms pre-processing, 2.8 ms inference, 1.1 ms post-processing}) and higher detection accuracy.
+\end{itemize}
+
+
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\textbf{Hackathon Achievement}} 
+{3rd Place, International Youth Information Service Summit Hackathon}{December 2024} {T.C. Youth and Sports Ministry, Istanbul, Turkey}
+
+\vspace{0.5em}  % Adds space between items
+
+\resumeSubItem{Achievement Overview} 
+\resumeItemListStart
+\resumeItem{Represented Mehmet Akif Ersoy University in the "International Youth Information Service Summit Hackathon," competing against over 100 teams. After 41 hours of intense competition, our team reached the finals and secured 3rd place in Turkey.}
+\resumeItemListEnd
+
+\vspace{0.5em}  % Adds space between sections
+
+\resumeSubItem{Team Members} 
+\resumeItemListStart
+\resumeItem{Iclal Gül, Melissa İpek, Şakir Kaya}
+\resumeItemListEnd
+
+\vspace{0.5em}  % Adds space between sections
+
+
+\resumeItemListStart
+\resumeItem{For more information, please visit the official website of the hackathon: \href{https://genclikhizmetleri.gov.tr/uluslararasi-genclik-bilgilendirme-servisi-zirvesi-ve-hackathonu-istanbulda-gerceklesti/}{International Youth Information Service Summit Hackathon Details.}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+
+\section{Certifications}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+    {MoIT of the Republic of Turkey: Milli Technology Academy Artificial Intelligence Expertise Program - Basic Training}{{2024}}
+
+
+\resumeProjectHeading
+    {Turkcell Geleceği Yazan Kadınlar: Machine Learning 101}{{2024}}
+
+\resumeProjectHeading
+    {Turkcell Geleceği Yazan Kadınlar: Python Programming 101, 201, 301, 401}{{2024}}
+
+\resumeProjectHeading
+    {Turkcell Geleceği Yazan Kadınlar: Data Science and Introduction to Artificial Intelligence}{{2024}}
+
+\resumeProjectHeading
+    {Rein Technology: Python Programming, Data Science, and Artificial Intelligence}{{2025}}
+
+\resumeProjectHeading
+    {Pluralsight: Microsoft Azure Solutions Architect: Design Migrations}{{2025}}
+
+\resumeProjectHeading
+    {Sibervatan: White Hat Hacking, Penetration Testing, Web Security, Malware Analysis, and Reverse Engineering}{{2024}}
+
+\resumeProjectHeading
+    {IATF 16949:2016, AS 9100:2016 (Rev: D), DFMEA - REV:4, Configuration Management, ISO 9001:2015}{{2024}}
+
+\resumeProjectHeading
+    {Coursera - Google Project Management}{{2023}}
+
+\resumeProjectHeading
+    {Google Game and Application Academy: Unity Game Development Certification}{{2023}}
+
+\resumeProjectHeading
+    {Turkish Aerospace University - Python Bootcamp}{{2022}}
+
+\resumeProjectHeading
+    {BTK: Cyber Threat Intelligence and Threat Hunting Certificate}{{2025}}
+
+\resumeProjectHeading
+    {BTK: Introduction to Firewall and SIEM Fundamentals}{{2025}}
+
+\resumeProjectHeading
+    {Pluralsight: Custom Dashboards and Reports with IBM Security QRadar}{{2025}}
+
+\resumeProjectHeading
+    {Pluralsight: IBM Security QRadar Functions and Capabilities}{{2025}}
+
+\resumeProjectHeading
+    {Ford Otosan: Cybersecurity and Incident Response Training}{{2024}}
+
+\resumeProjectHeading
+    {BTK: Introduction to Natural Language Processing}{{2024}}
+
+\resumeProjectHeading
+    {BTK: Network Fundamentals}{{2024}}
+
+\resumeSubHeadingListEnd
+
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+        \item \textbf{Languages:} Java, Python, SQL, HTML/CSS
+
+        \item \textbf{Technologies/Frameworks:} Kali Linux, Django, PyQt, YOLO, PostgreSQL, TensorFlow, PyTorch, Scikit-learn, OpenCV, Unity (basic), Unreal Engine.MLOps.PowerShell
+
+        \item \textbf{Developer Tools:}
+        \begin{itemize}
+            \item \textit{Version Control - Containerization:} GitHub, Docker
+            \item \textit{Collaboration:} Slack, Trello
+            \item \textit{Virtualization:} VirtualBox, VMware
+            \item \textit{Cloud Services:} Google Cloud Platform, Firebase Console, Microsoft Azure
+            \item \textit{Data Science Libraries:} Pandas, Numpy, Matplotlib
+            \item \textit{Cybersecurity Tools and Technologics:} Wireshark, Metasploit, Burp Suite,EDR, NDR, DLP, SIEM, SOAR, SOC, CTI
+        \end{itemize}
+    }
+\end{itemize}
+
+
+
+%------------Extracurrıcular-------------------------------
+
+
+
+\section{Extracurriculars}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{
+    \item{
+    \textbf{Ministry of Industry and Technology of the Republic of Turkey: Artificial Intelligence Expertise Program - Basic Training} (2024)  
+    }
+
+    \item{
+    \textbf{TEI Aviation Engines School} (2024)  
+    }
+
+    \item{
+    \textbf{Siber Vatan Education Program:} Participant (2023-2024) \\  
+    }
+
+    \item{
+    \textbf{Google Game and Application Academy:}  
+    Unity game development training, Scholarship recipient (2022-2023)  
+    }
+
+    \item{
+    \textbf{IEEE Student Branch:}  
+    President (2022-2023), Vice President (2021-2022), Mehmet Akif Ersoy University  
+    }
+
+    \item{
+    \textbf{TÜBİTAK 2209A:} IoT-based low-energy smart canes (2021-2022)  
+    }
+
+    \item{
+    \textbf{A Comparative Review of LPWAN Technologies and Application Areas:} (2021) \\  
+    \href{https://dergipark.org.tr/tr/pub/veri/issue/73010/1161454}{\underline{https://dergipark.org.tr/tr/pub/veri/issue/73010/1161454}}  
+    }
+
+    \item{
+    \textbf{IEEE ComSoc Turkey:}  
+    Coordination Team Member, Global and Branch Responsibilities (2021)  
+    }
+
+    \item{
+    \textbf{MAKUSE Research Group:} (2021-2022)  
+    }
+}
+\end{itemize}
+
+
+\section{References}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{
+    \item{
+    \textbf{Müge Özdemir:}  Ezberbozan Training and Consulting, 
+    \href{ https://www.ezberbozantraining.com/}{\underline{Trainer-Consultant }}  
+    | muge@ezberbozantraining.com 
+    }
+    \item{
+    \textbf{İhsan Pençe:} Burdur Mehmet Akif Ersoy University, \href{https://abs.mehmetakif.edu.tr/ihsanpence/PersonelDetay}{\underline{Assistant Professor}}  
+    | ihsanpence@mehmetakif.edu.tr 
+    }
+    \item{
+    \textbf{Elvan Duman:} Burdur Mehmet Akif Ersoy University,
+    \href{https://abs.mehmetakif.edu.tr/eduman/PersonelDetay}{\underline{Assistant Professor}}  | eduman@mehmetakif.edu.tr  
+    }
+}
+\end{itemize}
+
+\end{document}
