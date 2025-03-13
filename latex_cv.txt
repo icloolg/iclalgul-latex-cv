@@ -113,11 +113,15 @@
 
 \begin{center}
     \textbf{\Huge \scshape İclal Gül} \\ \vspace{1pt}
-    \small Software Engineer $|$ \href{mailto:iclalgull67@gmail.com}{\underline{iclalgulll67@gmail.com}} $|$ 
+    \small Software Engineer $|$ \href{mailto:iclalgull67@gmail.com}{\underline{iclalgull67@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/iclal-gül-se}{\underline{linkedin.com/in/iclal-gül-se}} $|$
     \href{https://github.com/icloolg}{\underline{github.com/icloolg}} $|$ 
-    \href{tel:+905363519467}{\underline{ +90 536 351 94 67}}
+    \href{tel:+905363519467}{\underline{+90 536 351 94 67}} \\[10pt]
+    \href{https://github.com/icloolg/iclalgul-latex-cv/blob/master/latex_cv.txt}
+    {This CV was created using LaTeX. You can access the source on GitHub.}
 \end{center}
+
+
 
 
 %-----------EDUCATION-----------
